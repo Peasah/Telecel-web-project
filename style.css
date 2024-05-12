@@ -4,8 +4,25 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    list-style: none;
+    box-sizing: content-box;
 }
 
 body {
     background-color: beige;
+}
+
+.top-menu {
+    background-color: black;
+    color: #fff;
+}
+
+.top-menu ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 30px;
 }
