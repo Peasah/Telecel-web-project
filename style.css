@@ -30,6 +30,7 @@ body {
     font-size: 12px;
     cursor: pointer;
     font-weight: 600;
+    transition: 0.3ms ease;
 }
 
 .top-menu ul li:hover {
