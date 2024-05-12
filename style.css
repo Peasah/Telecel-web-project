@@ -12,7 +12,8 @@ body {
     background-color: beige;
 }
 
-.top-menu{ 
+.top-menu{
+    
     background-color: #323232;
     color: white;
 }
@@ -24,7 +25,17 @@ body {
     margin-left: 10px;
 }
 
-ul li {
-    padding: 20px 10px;
-    font-size: 10px;
+.top-menu ul li {
+    padding: 12px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3ms ease;
+}
+
+.top-menu ul li:hover {
+    background-color: #E32526;
+}
+#selected{
+    background-color: #E32526;
 }
