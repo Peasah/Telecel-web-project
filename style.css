@@ -6,12 +6,17 @@
     font-family: "Poppins", sans-serif;
     list-style: none;
     box-sizing: content-box;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 7245b5d5993ff9d874cc7cd4f491e92292a6e902
 
 body {
     background-color: beige;
 }
 
+<<<<<<< HEAD
 .top-menu {
     background-color: black;
     color: #fff;
@@ -25,4 +30,22 @@ body {
 
 ul li {
     margin-right: 30px;
+=======
+.top-menu{
+    
+    background-color: #323232;
+    color: white;
+}
+
+.top-menu ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+ul li {
+    padding: 20px 10px;
+    font-size: 10px;
+>>>>>>> 7245b5d5993ff9d874cc7cd4f491e92292a6e902
 }
