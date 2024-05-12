@@ -4,8 +4,28 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-}
+    list-style: none;
+    box-sizing: content-box;
+} 
 
 body {
     background-color: beige;
+}
+
+.top-menu{
+    
+    background-color: #323232;
+    color: white;
+}
+
+.top-menu ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+ul li {
+    padding: 20px 10px;
+    font-size: 10px;
 }
